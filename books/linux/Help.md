@@ -26,9 +26,9 @@ man ls
 
 ```
 举例：
-man -5 passwd
-man -4 null
-man -8 ifconfig
+man 5 passwd
+man 4 null
+man 8 ifconfig
 ```
 #### 查看命令相关的所有帮助
 > man -k 命令 相当于 apropos 命令
