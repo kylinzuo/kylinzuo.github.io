@@ -55,3 +55,16 @@ grpquota | 写入代表文件系统支持组磁盘配额，默认不支持
 > umount 设备文件名或挂载点   
 umount /mnt/cdrom/
 
+#### 5、挂载U盘
+> fdisk -l
+
+```
+# 查看U盘设备文件名
+```
+
+> mount -t vfat /dev/sdb1 /mnt/usb/
+
+```
+注意：Linux默认是不支持NTFS文件系统的
+```
+
