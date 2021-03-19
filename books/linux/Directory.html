@@ -1,0 +1,419 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.2、文件处理命令 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Find.html" />
+    
+    
+    <link rel="prev" href="Basic.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    1、Linux常用命令
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="Basic.html">
+            
+                <a href="Basic.html">
+            
+                    
+                    1.1、命令基本格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.2" data-path="Directory.html">
+            
+                <a href="Directory.html">
+            
+                    
+                    1.2、文件处理命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="Find.html">
+            
+                <a href="Find.html">
+            
+                    
+                    1.3、文件搜索命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="Help.html">
+            
+                <a href="Help.html">
+            
+                    
+                    1.4、帮助命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="Tar.html">
+            
+                <a href="Tar.html">
+            
+                    
+                    1.5、压缩与解压缩命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="Shutdown.html">
+            
+                <a href="Shutdown.html">
+            
+                    
+                    1.6、关机与重启命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="Other.html">
+            
+                <a href="Other.html">
+            
+                    
+                    1.7、其他常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >1.2、文件处理命令</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="2&#x3001;&#x6587;&#x4EF6;&#x5904;&#x7406;&#x547D;&#x4EE4;">2&#x3001;&#x6587;&#x4EF6;&#x5904;&#x7406;&#x547D;&#x4EE4;</h3>
+<h4 id="&#x5EFA;&#x7ACB;&#x76EE;&#x5F55;">&#x5EFA;&#x7ACB;&#x76EE;&#x5F55;</h4>
+<blockquote>
+<p>mkdir -p [&#x76EE;&#x5F55;&#x540D;]</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;make directories
+&#x9009;&#x9879;&#xFF1A;
+ -p &#x9012;&#x5F52;&#x521B;&#x5EFA;
+</code></pre><h4 id="&#x5207;&#x6362;&#x6240;&#x5728;&#x76EE;&#x5F55;">&#x5207;&#x6362;&#x6240;&#x5728;&#x76EE;&#x5F55;</h4>
+<blockquote>
+<p>cd [&#x76EE;&#x5F55;]</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;change directory
+&#x7B80;&#x5316;&#x64CD;&#x4F5C;&#xFF1A;
+cd ~ &#x6216; cd    &#x8FDB;&#x5165;&#x5F53;&#x524D;&#x7528;&#x6237;&#x7684;&#x5BB6;&#x76EE;&#x5F55;
+cd -          &#x8FDB;&#x5165;&#x4E0A;&#x6B21;&#x76EE;&#x5F55;
+cd ..         &#x8FDB;&#x5165;&#x4E0A;&#x4E00;&#x7EA7;&#x76EE;&#x5F55;
+cd .          &#x8FDB;&#x5165;&#x5F53;&#x524D;&#x76EE;&#x5F55;
+</code></pre><h4 id="&#x67E5;&#x8BE2;&#x6240;&#x5728;&#x76EE;&#x5F55;&#x4F4D;&#x7F6E;">&#x67E5;&#x8BE2;&#x6240;&#x5728;&#x76EE;&#x5F55;&#x4F4D;&#x7F6E;</h4>
+<blockquote>
+<p>pwd</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;print working directory
+</code></pre><h4 id="&#x5220;&#x9664;&#x7A7A;&#x76EE;&#x5F55;---&#x4E0D;&#x5E38;&#x7528;">&#x5220;&#x9664;&#x7A7A;&#x76EE;&#x5F55; - &#x4E0D;&#x5E38;&#x7528;</h4>
+<blockquote>
+<p>rmdir [&#x76EE;&#x5F55;&#x540D;]</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;remove empty directories
+</code></pre><h4 id="&#x5220;&#x9664;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;">&#x5220;&#x9664;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;</h4>
+<blockquote>
+<p>rm -rf [&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;]</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;remove
+&#x9009;&#x9879;&#xFF1A;
+  -r &#x5220;&#x9664;&#x76EE;&#x5F55;
+  -f &#x5F3A;&#x5236;
+</code></pre><h4 id="&#x590D;&#x5236;&#x547D;&#x4EE4;">&#x590D;&#x5236;&#x547D;&#x4EE4;</h4>
+<blockquote>
+<p>cp [&#x9009;&#x9879;] [&#x539F;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;] [&#x76EE;&#x6807;&#x76EE;&#x5F55;]</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;copy
+&#x9009;&#x9879;&#xFF1A;
+  -r &#x590D;&#x5236;&#x76EE;&#x5F55;
+  -p &#x8FDE;&#x6587;&#x4EF6;&#x5C5E;&#x6027;&#x590D;&#x5236;
+  -d &#x82E5;&#x6E90;&#x6587;&#x4EF6;&#x662F;&#x94FE;&#x63A5;&#x6587;&#x4EF6;&#xFF0C;&#x5219;&#x590D;&#x5236;&#x94FE;&#x63A5;&#x5C5E;&#x6027;
+  -a &#x76F8;&#x5F53;&#x4E8E; -pdr
+</code></pre><h4 id="&#x526A;&#x5207;&#x6216;&#x6539;&#x540D;&#x547D;&#x4EE4;">&#x526A;&#x5207;&#x6216;&#x6539;&#x540D;&#x547D;&#x4EE4;</h4>
+<blockquote>
+<p>mv</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;move
+mv [&#x539F;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;] [&#x76EE;&#x6807;&#x76EE;&#x5F55;]
+</code></pre><h4 id="&#x5E38;&#x7528;&#x76EE;&#x5F55;&#x4F5C;&#x7528;">&#x5E38;&#x7528;&#x76EE;&#x5F55;&#x4F5C;&#x7528;</h4>
+<pre><code>/       &#x6839;&#x76EE;&#x5F55;
+/bin    &#x547D;&#x4EE4;&#x4FDD;&#x5B58;&#x76EE;&#x5F55;&#xFF08;&#x666E;&#x901A;&#x7528;&#x6237;&#x5C31;&#x53EF;&#x4EE5;&#x8BFB;&#x53D6;&#x7684;&#x547D;&#x4EE4;&#xFF09;
+/boot   &#x542F;&#x52A8;&#x76EE;&#x5F55;&#xFF0C;&#x542F;&#x52A8;&#x76F8;&#x5173;&#x6587;&#x4EF6;
+/dev    &#x8BBE;&#x5907;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x76EE;&#x5F55;
+/etc    &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x76EE;&#x5F55;
+/home   &#x666E;&#x901A;&#x7528;&#x6237;&#x7684;&#x5BB6;&#x76EE;&#x5F55;
+/lib    &#x7CFB;&#x7EDF;&#x5E93;&#x4FDD;&#x5B58;&#x76EE;&#x5F55;
+/mnt    &#x7CFB;&#x7EDF;&#x6302;&#x8F7D;&#x76EE;&#x5F55;
+/media  &#x6302;&#x8F7D;&#x76EE;&#x5F55;
+/root   &#x8D85;&#x7EA7;&#x7528;&#x6237;&#x7684;&#x5BB6;&#x76EE;&#x5F55;
+/tmp    &#x4E34;&#x65F6;&#x76EE;&#x5F55;
+/sbin   &#x547D;&#x4EE4;&#x4FDD;&#x5B58;&#x76EE;&#x5F55;&#xFF08;&#x8D85;&#x7EA7;&#x7528;&#x6237;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x7684;&#x76EE;&#x5F55;&#xFF09;
+/proc   &#x76F4;&#x63A5;&#x5199;&#x5165;&#x5185;&#x5B58;&#x7684;
+/sys    &#x76F4;&#x63A5;&#x5199;&#x5165;&#x5185;&#x5B58;&#x7684;
+/var    &#x7CFB;&#x7EDF;&#x76F8;&#x5173;&#x6587;&#x6863;&#x5185;&#x5BB9;   
+/usr    &#x7CFB;&#x7EDF;&#x8F6F;&#x4EF6;&#x8D44;&#x6E90;&#x76EE;&#x5F55;
+  /usr/bin/&#x7CFB;&#x7EDF;&#x547D;&#x4EE4;&#xFF08;&#x666E;&#x901A;&#x7528;&#x6237;&#xFF09;
+  /usr/sbin/&#x7CFB;&#x7EDF;&#x547D;&#x4EE4;&#xFF08;&#x8D85;&#x7EA7;&#x7528;&#x6237;&#xFF09;
+</code></pre><h3 id="&#x94FE;&#x63A5;&#x547D;&#x4EE4;">&#x94FE;&#x63A5;&#x547D;&#x4EE4;</h3>
+<blockquote>
+<p>ln -s [&#x539F;&#x6587;&#x4EF6;] [&#x76EE;&#x6807;&#x6587;&#x4EF6;]</p>
+</blockquote>
+<pre><code>&#x547D;&#x4EE4;&#x82F1;&#x6587;&#x539F;&#x610F;&#xFF1A;link
+&#x529F;&#x80FD;&#x63CF;&#x8FF0;&#xFF1A;&#x751F;&#x6210;&#x94FE;&#x63A5;&#x6587;&#x4EF6;
+&#x9009;&#x9879;&#xFF1A;-s &#x521B;&#x5EFA;&#x8F6F;&#x94FE;&#x63A5;
+
+&#x786C;&#x94FE;&#x63A5;&#x7279;&#x5F81;&#xFF1A;
+1&#x3001;&#x62E5;&#x6709;&#x76F8;&#x540C;&#x7684;i&#x8282;&#x70B9;&#x548C;&#x5B58;&#x50A8;block&#x5757;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x505A;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;
+2&#x3001;&#x53EF;&#x901A;&#x8FC7;i&#x8282;&#x70B9;&#x8BC6;&#x522B;
+3&#x3001;&#x4E0D;&#x80FD;&#x8DE8;&#x5206;&#x533A;
+4&#x3001;&#x4E0D;&#x80FD;&#x9488;&#x5BF9;&#x76EE;&#x5F55;&#x4F7F;&#x7528;
+
+&#x8F6F;&#x94FE;&#x63A5;&#x7279;&#x5F81;&#xFF1A;
+1&#x3001;&#x7C7B;&#x4F3C;Windows&#x5FEB;&#x6377;&#x65B9;&#x5F0F;
+2&#x3001;&#x8F6F;&#x94FE;&#x63A5;&#x62E5;&#x6709;&#x81EA;&#x5DF1;&#x7684;I&#x8282;&#x70B9;&#x548C;BLOCK&#x5757;&#xFF0C;&#x4F46;&#x662F;&#x6570;&#x636E;&#x5757;&#x4E2D;&#x53EA;&#x4FDD;&#x5B58;&#x539F;&#x6587;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x540D;&#x548C;I&#x8282;&#x70B9;&#x53F7;&#xFF0C;&#x5E76;&#x6CA1;&#x6709;&#x5B9E;&#x9645;&#x7684;&#x6587;&#x4EF6;&#x6570;&#x636E;
+3&#x3001;lrwxrwxrwx l&#x8F6F;&#x94FE;&#x63A5;
+  &#x8F6F;&#x94FE;&#x63A5;&#x6587;&#x4EF6;&#x6743;&#x9650;&#x90FD;&#x4E3A;rwxrwxrwx
+4&#x3001;&#x4FEE;&#x6539;&#x4EFB;&#x610F;&#x6587;&#x4EF6;&#xFF0C;&#x53E6;&#x4E00;&#x4E2A;&#x90FD;&#x6539;&#x53D8;
+5&#x3001;&#x5220;&#x9664;&#x539F;&#x6587;&#x4EF6;&#xFF0C;&#x8F6F;&#x94FE;&#x63A5;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;
+&#x6CE8;&#x610F;&#xFF1A;&#x521B;&#x5EFA;&#x8F6F;&#x94FE;&#x63A5;&#x4E00;&#x5B9A;&#x8981;&#x5199;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Basic.html" class="navigation navigation-prev " aria-label="Previous page: 1.1、命令基本格式">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Find.html" class="navigation navigation-next " aria-label="Next page: 1.3、文件搜索命令">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.2、文件处理命令","level":"1.1.2","depth":2,"next":{"title":"1.3、文件搜索命令","level":"1.1.3","depth":2,"path":"Find.md","ref":"Find.md","articles":[]},"previous":{"title":"1.1、命令基本格式","level":"1.1.1","depth":2,"path":"Basic.md","ref":"Basic.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Directory.md","mtime":"2021-03-19T11:49:24.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-19T11:51:48.178Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
