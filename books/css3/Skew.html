@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>1、Linux常用命令 · GitBook</title>
+        <title>1.1、Skew · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Basic.html" />
     
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -87,12 +87,12 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
                     
-                    1、Linux常用命令
+                    1、CSS揭秘
             
                 </a>
             
@@ -101,90 +101,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1.1" data-path="Basic.html">
+        <li class="chapter active" data-level="1.1.1" data-path="Skew.html">
             
-                <a href="Basic.html">
-            
-                    
-                    1.1、命令基本格式
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.1.2" data-path="Directory.html">
-            
-                <a href="Directory.html">
+                <a href="Skew.html">
             
                     
-                    1.2、文件处理命令
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.1.3" data-path="Find.html">
-            
-                <a href="Find.html">
-            
-                    
-                    1.3、文件搜索命令
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.1.4" data-path="Help.html">
-            
-                <a href="Help.html">
-            
-                    
-                    1.4、帮助命令
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.1.5" data-path="Tar.html">
-            
-                <a href="Tar.html">
-            
-                    
-                    1.5、压缩与解压缩命令
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.1.6" data-path="Shutdown.html">
-            
-                <a href="Shutdown.html">
-            
-                    
-                    1.6、关机与重启命令
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.1.7" data-path="Other.html">
-            
-                <a href="Other.html">
-            
-                    
-                    1.7、其他常用命令
+                    1.1、Skew
             
                 </a>
             
@@ -227,7 +149,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >1、Linux常用命令</a>
+        <a href="." >1.1、Skew</a>
     </h1>
 </div>
 
@@ -242,9 +164,84 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="linux&#x5E38;&#x7528;&#x547D;&#x4EE4;">Linux&#x5E38;&#x7528;&#x547D;&#x4EE4;</h1>
-<p><a href="Basic.html">1&#x3001;&#x547D;&#x4EE4;&#x57FA;&#x672C;&#x683C;&#x5F0F;</a><br><a href="Directory.html">2&#x3001;&#x6587;&#x4EF6;&#x5904;&#x7406;&#x547D;&#x4EE4;</a><br><a href="Find.html">3&#x3001;&#x6587;&#x4EF6;&#x641C;&#x7D22;&#x547D;&#x4EE4;</a><br><a href="Help.html">4&#x3001;&#x5E2E;&#x52A9;&#x547D;&#x4EE4;</a><br><a href="Tar.html">5&#x3001;&#x538B;&#x7F29;&#x4E0E;&#x89E3;&#x538B;&#x7F29;&#x547D;&#x4EE4;</a><br><a href="Shutdown.html">6&#x3001;&#x5173;&#x673A;&#x4E0E;&#x91CD;&#x542F;&#x547D;&#x4EE4;</a><br><a href="Other.html">7&#x3001;&#x5176;&#x4ED6;&#x5E38;&#x7528;&#x547D;&#x4EE4;</a>   </p>
+                                <h1 id="&#x4E24;&#x4E2A;div&#x5B9E;&#x73B0;&#x96F7;&#x8FBE;&#x626B;&#x63CF;&#x6548;&#x679C;">&#x4E24;&#x4E2A;div&#x5B9E;&#x73B0;&#x96F7;&#x8FBE;&#x626B;&#x63CF;&#x6548;&#x679C;</h1>
+<h2 id="html">HTML</h2>
+<pre><code>&lt;div class=&quot;radar&quot;&gt;
+  &lt;div class=&quot;fan&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="css">css</h2>
+<pre><code>.radar {
+  overflow: hidden;
+  position: relative;
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #5ef2ff;
+  box-sizing: border-box;
+}
 
+.radar::before {
+  width: 100px; 
+  height: 200px;
+  content: &apos;&apos;;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-sizing: border-box;
+  border-left: 1px solid #5ef2ff;
+}
+
+.radar::after {
+  width: 200px; 
+  height: 100px;
+  content: &apos;&apos;;
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #5ef2ff;
+}
+
+.fan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid #5ef2ff;
+  width: 100px;
+  height: 100px;
+}
+
+.fan::after {
+  content: &quot;&quot;;
+  width: 100px;
+  height: 100px;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  top: -50%;
+  right: -50%;
+  transform-origin: 0% 100%;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, transparent, #5ef2ff);
+  border-image-slice: 3;
+  background: transparent;
+  background-image: linear-gradient(to right, transparent, #9bfdfd);
+  animation: rotateAnimate 2s linear infinite;
+}
+
+@keyframes rotateAnimate {
+  from {
+    transform: rotate(0deg) skew(-10deg)
+  }
+  to {
+    transform: rotate(360deg) skew(-10deg)
+  }
+}
+</code></pre>
                                 
                                 </section>
                             
@@ -271,10 +268,10 @@
 
             
                 
-                
-                <a href="Basic.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 1.1、命令基本格式">
-                    <i class="fa fa-angle-right"></i>
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 1、CSS揭秘">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -283,7 +280,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1、Linux常用命令","level":"1.1","depth":1,"next":{"title":"1.1、命令基本格式","level":"1.1.1","depth":2,"path":"Basic.md","ref":"Basic.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2021-03-19T11:49:24.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-19T12:54:09.860Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.1、Skew","level":"1.1.1","depth":2,"previous":{"title":"1、CSS揭秘","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[{"title":"1.1、Skew","level":"1.1.1","depth":2,"path":"Skew.md","ref":"Skew.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Skew.md","mtime":"2021-03-19T12:51:10.675Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-19T12:54:06.599Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
