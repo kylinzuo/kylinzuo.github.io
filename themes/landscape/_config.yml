@@ -2,6 +2,9 @@
 menu:
   Home: /
   Archives: /archives
+  Linux: /books/linux
+  Css: /books/css3
+  Notebook: /books/notebook
 rss: /atom.xml
 
 # Content

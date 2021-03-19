@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "hexo server -w -p 5000",
     "clean": "hexo clean",
-    "publish": "hexo clean && hexo g && cd books && ./gitbook.sh && hexo d"
+    "deploy": "hexo clean && hexo g && cd books && ./gitbook.sh && hexo d"
   },
   "dependencies": {
     "hexo": "^3.9.0",

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: kylinzuo的博客
+title: Kylinzuo
 subtitle:
 description:
-keywords:
+keywords: 技术、互联网、前端
 author: Kylin Zuo
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://kylinzuo.github.io
 root: /
 permalink: :year-:month-:day/:title/
 permalink_defaults:
